@@ -1,0 +1,24 @@
+body {
+    background-color: #f4f6f9;
+    font-family: Arial, sans-serif;
+}
+
+.logo-site {
+    max-width: 150px;
+    height: auto;
+}
+
+
+@media (max-width: 767px) {
+    body {
+        background-color: #ffffff; 
+    }
+
+    h1 {
+        font-size: 1.8rem; 
+    }
+
+    .logo-site {
+        max-width: 100px; 
+    }
+}
